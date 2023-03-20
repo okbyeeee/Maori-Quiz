@@ -40,9 +40,11 @@
         }
         static void EasyMode()
         {
-
+            //added 3 different levels and a greeting when one is selected
         System.Console.WriteLine("Welcome to Easy Mode. GoodLuck!!");
-            Console.WriteLine("Hello");
+            Console.Clear();
+           
+            Console.WriteLine("");
 
         }
         static void IndermediateMode()
@@ -56,12 +58,7 @@
         static void ExitMode()
         { System.Console.WriteLine("Are you sure you want to Exit? (Y/N)");
 
-            if (Y)
-            {
-                Console.WriteLine("See you soon!");
-            }
-           
-
+          
 
 
 
