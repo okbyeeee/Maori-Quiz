@@ -11,9 +11,9 @@
             name1 = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("\n\n\n\n\n\n\n\n\n\n\t\t\tHello " + name1 + " ,There are Three Different Difficulties you can choose from \n\n\t\t\t(1)Easy\t\t(2)Intermediate\t\t(3)Impossible\t\t(4)Exit");
-            input = Console.ReadLine(); 
+            input = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
-            if (input == 1) 
+            if (input == 1)
             {
                 EasyMode();
             }
@@ -25,9 +25,9 @@
             {
                 Impossible();
             }
-            else if (input == 4)
+            else if (input == 4) 
             {
-                Console.WriteLine("GoodBye, Play again soon!");
+             ExitMode();
             }
 
 
@@ -36,20 +36,36 @@
 
 
 
-            Console.Read();
+         
         }
-        static void EasyMode() {
+        static void EasyMode()
+        {
 
-            Console.WriteLine("Welcome to Easy Mode. GoodLuck!!");
+        System.Console.WriteLine("Welcome to Easy Mode. GoodLuck!!");
+            Console.WriteLine("Hello");
 
         }
         static void IndermediateMode()
         {
-            Console.WriteLine("Welcome to Intermediate Mode. Have Fun!");
+        System.Console.WriteLine("Welcome to Intermediate Mode. Have Fun!");
         }
         static void Impossible()
         {
-            Console.WriteLine("Welcome to The Impossible Quiz, Best Of Luck!");
+        System.Console.WriteLine("Welcome to The Impossible Quiz, Best Of Luck!");
+        } 
+        static void ExitMode()
+        { System.Console.WriteLine("Are you sure you want to Exit? (Y/N)");
+
+            if (Y)
+            {
+                Console.WriteLine("See you soon!");
+            }
+           
+
+
+
+
+
         }
        
     }
