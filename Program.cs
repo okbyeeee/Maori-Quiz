@@ -39,12 +39,13 @@ namespace Quiz
                         string exitInput = Console.ReadLine();
                         if (exitInput.ToLower() == "y")//if the user inputs a capital "Y" it converts it to a lower and will exit the program. if "N" is entered then it loops back to the start 
                         {
-                            Environment.Exit(0);
+                            Environment.Exit(1);// exit
                         }
                     }
                     else
                     {
                         Console.WriteLine("Whatever your doing isnt right. Please enter  1, 2, 3, or 4.\n\n\nTry Again!");//if the user fails to input 1-4 it tells them nicely that its wrong and they need to try again
+                        
                     }
                 }
                 else
