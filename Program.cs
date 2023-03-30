@@ -146,7 +146,7 @@ namespace Quiz
             Console.Clear();
             Console.WriteLine("\n\t\t\t\t\tWelcome to Easy Mode!!\nThere are Five Questions, GoodLuck");
             {
-                string[] Easyquestions = new string[]
+                string[] Easyquestions = new string[]//uses an array to show the easy questions
                 {
                 "What does 'kia ora' mean?\nA) Thank you\nB) Hello\nC) Goodbye",
                 "What is the Maori word for 'family'?\nA) Whanau\nB) Kaumatua\nC) Kaitiaki",
