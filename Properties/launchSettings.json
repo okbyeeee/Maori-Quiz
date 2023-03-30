@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Maori Quiz": {
+      "commandName": "Project",
+      "commandLineArgs": "20\r\n"
+    }
+  }
+}
